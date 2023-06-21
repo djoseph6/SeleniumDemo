@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--	<listeners>-->
+<!--		<listener class-name="/Selenium/src/test/java/utiliyclasses/DemoListener.java"></listener>-->
+<!--	</listeners>-->
+  <test thread-count="2" name="Test" preserve-order="true" parallel="methods">
+<!--	  <groups>-->
+<!--		  <run>-->
+<!--			  <include name="smoke"></include>-->
+<!--			  <include name="regression"></include>-->
+<!--		  </run>-->
+<!--	  </groups>-->
+	  
+    <classes>
+      <class name="seleniumtests.SyntaxDropDownDemo"/>
+      <class name="seleniumtests.FramesDemo"/>
+      <class name="seleniumtests.SyntaxCheckBoxDemo"/>
+      <class name="seleniumtests.JSExecutionDemo"/>
+      <class name="seleniumtests.ReviewTable"/>
+      <class name="seleniumtests.FacebookLogIn"/>
+      <class name="seleniumtests.WaitsReview"/>
+      <class name="seleniumtests.VerifyURLAndTitle"/>
+      <class name="seleniumtests.AlertsDemo"/>
+      <class name="seleniumtests.WindowHandlesDemo"/>
+      <class name="seleniumtests.CalanderDemo"/>
+      <class name="seleniumtests.FileUpload"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
