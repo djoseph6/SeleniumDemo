@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumtests.FileUpload">
+      <class name="seleniumDBtests.SelectAllPerson">
         <methods>
-          <include name="endTests"/>
-          <include name="testUploadingFile"/>
+          <include name="printDBTable"/>
           <include name="prepareTest"/>
         </methods>
-      </class> <!-- seleniumtests.FileUpload -->
+      </class> <!-- seleniumDBtests.SelectAllPerson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

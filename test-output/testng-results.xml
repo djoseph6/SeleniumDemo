@@ -1,187 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-20T11:33:55 EDT" name="All Test Suite" finished-at="2023-06-20T11:36:43 EDT" duration-ms="168071">
+  <suite started-at="2023-07-29T13:42:53 EDT" name="Default suite" finished-at="2023-07-29T13:42:54 EDT" duration-ms="638">
     <groups>
     </groups>
-    <test started-at="2023-06-20T11:33:55 EDT" name="Test" finished-at="2023-06-20T11:36:43 EDT" duration-ms="168071">
-      <class name="seleniumtests.WaitsReview">
-        <test-method signature="testWaits()[pri:0, instance:seleniumtests.WaitsReview@436813f3]" started-at="2023-06-20T11:35:29 EDT" name="testWaits" finished-at="2023-06-20T11:35:37 EDT" duration-ms="7676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWaits -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.WaitsReview@436813f3]" started-at="2023-06-20T11:35:37 EDT" name="endTests" finished-at="2023-06-20T11:35:37 EDT" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.WaitsReview -->
-      <class name="seleniumtests.SyntaxDropDownDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.SyntaxDropDownDemo@dd8ba08]" started-at="2023-06-20T11:33:55 EDT" name="prepareTest" finished-at="2023-06-20T11:33:59 EDT" duration-ms="4283" status="PASS">
+    <test started-at="2023-07-29T13:42:53 EDT" name="Default test" finished-at="2023-07-29T13:42:54 EDT" duration-ms="638">
+      <class name="seleniumDBtests.SelectAllPerson">
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumDBtests.SelectAllPerson@59309333]" started-at="2023-07-29T13:42:53 EDT" name="prepareTest" finished-at="2023-07-29T13:42:54 EDT" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTest -->
-        <test-method signature="checkDropDownList()[pri:0, instance:seleniumtests.SyntaxDropDownDemo@dd8ba08]" started-at="2023-06-20T11:33:59 EDT" name="checkDropDownList" finished-at="2023-06-20T11:34:02 EDT" duration-ms="2692" status="PASS">
+        <test-method signature="printDBTable()[pri:0, instance:seleniumDBtests.SelectAllPerson@59309333]" started-at="2023-07-29T13:42:54 EDT" name="printDBTable" finished-at="2023-07-29T13:42:54 EDT" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkDropDownList -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.SyntaxDropDownDemo@dd8ba08]" started-at="2023-06-20T11:34:02 EDT" name="endTests" finished-at="2023-06-20T11:34:02 EDT" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.SyntaxDropDownDemo -->
-      <class name="seleniumtests.JSExecutionDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.JSExecutionDemo@399f45b1]" started-at="2023-06-20T11:34:36 EDT" name="prepareTest" finished-at="2023-06-20T11:34:45 EDT" duration-ms="8917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testJSExectionsOnAmazonWebsite()[pri:0, instance:seleniumtests.JSExecutionDemo@399f45b1]" started-at="2023-06-20T11:34:45 EDT" name="testJSExectionsOnAmazonWebsite" finished-at="2023-06-20T11:34:51 EDT" duration-ms="6113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJSExectionsOnAmazonWebsite -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.JSExecutionDemo@399f45b1]" started-at="2023-06-20T11:34:51 EDT" name="endTests" finished-at="2023-06-20T11:34:51 EDT" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.JSExecutionDemo -->
-      <class name="seleniumtests.AlertsDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.AlertsDemo@10e31a9a]" started-at="2023-06-20T11:35:53 EDT" name="prepareTest" finished-at="2023-06-20T11:35:59 EDT" duration-ms="6504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testAlertFunctionality()[pri:0, instance:seleniumtests.AlertsDemo@10e31a9a]" started-at="2023-06-20T11:35:59 EDT" name="testAlertFunctionality" finished-at="2023-06-20T11:36:09 EDT" duration-ms="9208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAlertFunctionality -->
-        <test-method is-config="true" signature="closeTests()[pri:0, instance:seleniumtests.AlertsDemo@10e31a9a]" started-at="2023-06-20T11:36:09 EDT" name="closeTests" finished-at="2023-06-20T11:36:09 EDT" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTests -->
-      </class> <!-- seleniumtests.AlertsDemo -->
-      <class name="seleniumtests.WindowHandlesDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.WindowHandlesDemo@131774fe]" started-at="2023-06-20T11:36:09 EDT" name="prepareTest" finished-at="2023-06-20T11:36:13 EDT" duration-ms="3841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="changeWindowHandles()[pri:0, instance:seleniumtests.WindowHandlesDemo@131774fe]" started-at="2023-06-20T11:36:13 EDT" name="changeWindowHandles" finished-at="2023-06-20T11:36:22 EDT" duration-ms="9498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeWindowHandles -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.WindowHandlesDemo@131774fe]" started-at="2023-06-20T11:36:22 EDT" name="endTests" finished-at="2023-06-20T11:36:22 EDT" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.WindowHandlesDemo -->
-      <class name="seleniumtests.CalanderDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.CalanderDemo@158d2680]" started-at="2023-06-20T11:36:22 EDT" name="prepareTest" finished-at="2023-06-20T11:36:35 EDT" duration-ms="12228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testCalandarFunctionality()[pri:0, instance:seleniumtests.CalanderDemo@158d2680]" started-at="2023-06-20T11:36:35 EDT" name="testCalandarFunctionality" finished-at="2023-06-20T11:36:39 EDT" duration-ms="3893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCalandarFunctionality -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.CalanderDemo@158d2680]" started-at="2023-06-20T11:36:39 EDT" name="endTests" finished-at="2023-06-20T11:36:39 EDT" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.CalanderDemo -->
-      <class name="seleniumtests.VerifyURLAndTitle">
-        <test-method is-config="true" signature="verifyFacebookURLAndTitle()[pri:0, instance:seleniumtests.VerifyURLAndTitle@74fe5c40]" started-at="2023-06-20T11:35:37 EDT" name="verifyFacebookURLAndTitle" finished-at="2023-06-20T11:35:40 EDT" duration-ms="3613" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFacebookURLAndTitle -->
-        <test-method signature="verifyFacebookURLAndTitleAfterNavigationBackAndForward()[pri:0, instance:seleniumtests.VerifyURLAndTitle@74fe5c40]" started-at="2023-06-20T11:35:40 EDT" name="verifyFacebookURLAndTitleAfterNavigationBackAndForward" finished-at="2023-06-20T11:35:53 EDT" duration-ms="12293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFacebookURLAndTitleAfterNavigationBackAndForward -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:seleniumtests.VerifyURLAndTitle@74fe5c40]" started-at="2023-06-20T11:35:53 EDT" name="endTest" finished-at="2023-06-20T11:35:53 EDT" duration-ms="106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- seleniumtests.VerifyURLAndTitle -->
-      <class name="seleniumtests.ReviewTable">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.ReviewTable@79e2c065]" started-at="2023-06-20T11:34:51 EDT" name="prepareTest" finished-at="2023-06-20T11:34:52 EDT" duration-ms="925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testTable()[pri:1, instance:seleniumtests.ReviewTable@79e2c065]" started-at="2023-06-20T11:34:52 EDT" name="testTable" finished-at="2023-06-20T11:34:54 EDT" duration-ms="1572" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTable -->
-        <test-method signature="checkBoxWhereStateIsUSAndCardIsMastercard()[pri:2, instance:seleniumtests.ReviewTable@79e2c065]" started-at="2023-06-20T11:34:54 EDT" name="checkBoxWhereStateIsUSAndCardIsMastercard" finished-at="2023-06-20T11:34:54 EDT" duration-ms="211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkBoxWhereStateIsUSAndCardIsMastercard -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.ReviewTable@79e2c065]" started-at="2023-06-20T11:34:54 EDT" name="endTests" finished-at="2023-06-20T11:34:54 EDT" duration-ms="65" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.ReviewTable -->
-      <class name="seleniumtests.FramesDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.FramesDemo@72d1ad2e]" started-at="2023-06-20T11:34:02 EDT" name="prepareTest" finished-at="2023-06-20T11:34:08 EDT" duration-ms="5297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testSwitchingFrames()[pri:0, instance:seleniumtests.FramesDemo@72d1ad2e]" started-at="2023-06-20T11:34:08 EDT" name="testSwitchingFrames" finished-at="2023-06-20T11:34:08 EDT" duration-ms="513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSwitchingFrames -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.FramesDemo@72d1ad2e]" started-at="2023-06-20T11:34:08 EDT" name="endTests" finished-at="2023-06-20T11:34:09 EDT" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.FramesDemo -->
-      <class name="seleniumtests.FacebookLogIn">
-        <test-method signature="checkFacebookInvalidLogIn()[pri:0, instance:seleniumtests.FacebookLogIn@8f4ea7c]" started-at="2023-06-20T11:34:54 EDT" name="checkFacebookInvalidLogIn" finished-at="2023-06-20T11:35:29 EDT" duration-ms="34464" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkFacebookInvalidLogIn -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.FacebookLogIn@8f4ea7c]" started-at="2023-06-20T11:35:29 EDT" name="endTests" finished-at="2023-06-20T11:35:29 EDT" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-        <test-method is-config="true" signature="shutDownDriver()[pri:0, instance:seleniumtests.FacebookLogIn@8f4ea7c]" started-at="2023-06-20T11:36:43 EDT" name="shutDownDriver" finished-at="2023-06-20T11:36:43 EDT" duration-ms="69" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutDownDriver -->
-      </class> <!-- seleniumtests.FacebookLogIn -->
-      <class name="seleniumtests.SyntaxCheckBoxDemo">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.SyntaxCheckBoxDemo@2d7275fc]" started-at="2023-06-20T11:34:09 EDT" name="prepareTest" finished-at="2023-06-20T11:34:15 EDT" duration-ms="6443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testMultipleCheckBoxes()[pri:0, instance:seleniumtests.SyntaxCheckBoxDemo@2d7275fc]" started-at="2023-06-20T11:34:15 EDT" name="testMultipleCheckBoxes" finished-at="2023-06-20T11:34:23 EDT" duration-ms="8282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMultipleCheckBoxes -->
-        <test-method signature="testSingleCheckBox()[pri:0, instance:seleniumtests.SyntaxCheckBoxDemo@2d7275fc]" started-at="2023-06-20T11:34:23 EDT" name="testSingleCheckBox" finished-at="2023-06-20T11:34:25 EDT" duration-ms="2079" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSingleCheckBox -->
-        <test-method signature="testWaitOfSingleCheckBox()[pri:1, instance:seleniumtests.SyntaxCheckBoxDemo@2d7275fc]" started-at="2023-06-20T11:34:26 EDT" name="testWaitOfSingleCheckBox" finished-at="2023-06-20T11:34:36 EDT" duration-ms="10083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWaitOfSingleCheckBox -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.SyntaxCheckBoxDemo@2d7275fc]" started-at="2023-06-20T11:34:36 EDT" name="endTests" finished-at="2023-06-20T11:34:36 EDT" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.SyntaxCheckBoxDemo -->
-      <class name="seleniumtests.FileUpload">
-        <test-method is-config="true" signature="prepareTest()[pri:0, instance:seleniumtests.FileUpload@77847718]" started-at="2023-06-20T11:36:39 EDT" name="prepareTest" finished-at="2023-06-20T11:36:42 EDT" duration-ms="3228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareTest -->
-        <test-method signature="testUploadingFile()[pri:0, instance:seleniumtests.FileUpload@77847718]" started-at="2023-06-20T11:36:42 EDT" name="testUploadingFile" finished-at="2023-06-20T11:36:43 EDT" duration-ms="694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUploadingFile -->
-        <test-method is-config="true" signature="endTests()[pri:0, instance:seleniumtests.FileUpload@77847718]" started-at="2023-06-20T11:36:43 EDT" name="endTests" finished-at="2023-06-20T11:36:43 EDT" duration-ms="66" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTests -->
-      </class> <!-- seleniumtests.FileUpload -->
-    </test> <!-- Test -->
-  </suite> <!-- All Test Suite -->
+        </test-method> <!-- printDBTable -->
+      </class> <!-- seleniumDBtests.SelectAllPerson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

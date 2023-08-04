@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
-public class CommonMethods {
+public class CommonMethods extends DatabaseConnector{
 	
 	public static WebDriver webDriver;
 	private static final String expectedFBTitle = "Facebook - log in or sign up";

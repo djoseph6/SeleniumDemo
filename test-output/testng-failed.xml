@@ -1,58 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumtests.FramesDemo">
+      <class name="seleniumDBtests.SelectAllPerson">
         <methods>
-          <include name="endTests"/>
-          <include name="prepareTest"/>
-          <include name="testSwitchingFrames"/>
-        </methods>
-      </class> <!-- seleniumtests.FramesDemo -->
-      <class name="seleniumtests.FileUpload">
-        <methods>
-          <include name="endTests"/>
-          <include name="testUploadingFile"/>
+          <include name="printDBTable"/>
           <include name="prepareTest"/>
         </methods>
-      </class> <!-- seleniumtests.FileUpload -->
-      <class name="seleniumtests.AlertsDemo">
-        <methods>
-          <include name="testAlertFunctionality"/>
-          <include name="prepareTest"/>
-          <include name="closeTests"/>
-        </methods>
-      </class> <!-- seleniumtests.AlertsDemo -->
-      <class name="seleniumtests.WindowHandlesDemo">
-        <methods>
-          <include name="changeWindowHandles"/>
-          <include name="prepareTest"/>
-          <include name="endTests"/>
-        </methods>
-      </class> <!-- seleniumtests.WindowHandlesDemo -->
-      <class name="seleniumtests.ReviewTable">
-        <methods>
-          <include name="endTests"/>
-          <include name="testTable"/>
-          <include name="prepareTest"/>
-          <include name="checkBoxWhereStateIsUSAndCardIsMastercard"/>
-        </methods>
-      </class> <!-- seleniumtests.ReviewTable -->
-      <class name="seleniumtests.JSExecutionDemo">
-        <methods>
-          <include name="testJSExectionsOnAmazonWebsite"/>
-          <include name="endTests"/>
-          <include name="prepareTest"/>
-        </methods>
-      </class> <!-- seleniumtests.JSExecutionDemo -->
-      <class name="seleniumtests.CalanderDemo">
-        <methods>
-          <include name="prepareTest"/>
-          <include name="endTests"/>
-          <include name="testCalandarFunctionality"/>
-        </methods>
-      </class> <!-- seleniumtests.CalanderDemo -->
+      </class> <!-- seleniumDBtests.SelectAllPerson -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [All Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
